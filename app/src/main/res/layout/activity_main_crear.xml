@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.sarah.sonometro.MainCrear">
+
+    <TextView
+        android:id="@+id/proyect_ttDatos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/proyect_datos"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="@dimen/proyect_titulos"
+
+        />
+    <EditText
+        android:id="@+id/proyect_nombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="@string/proyect_nombre"
+        android:ems="10"
+        android:layout_below="@+id/proyect_ttDatos"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        />
+
+    <EditText
+        android:id="@+id/proyect_encargado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="@string/proyect_encargado"
+        android:ems="10"
+        android:layout_below="@+id/proyect_nombre"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="33dp"
+        android:layout_alignRight="@+id/proyect_nombre"
+        android:layout_alignEnd="@+id/proyect_nombre"
+
+        />
+
+    <Spinner
+        android:id="@+id/proyecto_spinnerPuntos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/proyect_encargado"
+        android:layout_alignRight="@+id/proyect_ttDatos"
+        android:layout_alignEnd="@+id/proyect_ttDatos"
+        android:layout_toRightOf="@+id/proyect_ttNumPuntos"
+        android:layout_toEndOf="@+id/proyect_ttNumPuntos" />
+
+    <TextView
+        android:id="@+id/proyect_ttNumPuntos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/proyect_ttNumPuntos"
+        android:layout_alignTop="@+id/proyecto_spinnerPuntos"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="@dimen/proyect_subtitulos"
+        />
+
+    <Button
+        android:id="@+id/button_continuar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/proyect_button_continua"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+
+        />
+
+
+</RelativeLayout>

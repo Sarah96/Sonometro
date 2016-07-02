@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="array_puntos_list">
+    <item>@array/Proyect_Punt1</item>
+    <item>@array/Proyect_Punt2</item>
+    <item>@array/Proyect_Punt3</item>
+    <item>@array/Proyect_Punt4</item>
+    <item>@array/Proyect_Punt5</item>
+
+    </array>
+    <string-array name="Proyect_Punt1">1 Punto</string-array>
+    <string-array name="Proyect_Punt2">2 Puntos</string-array>
+    <string-array name="Proyect_Punt3">3 Puntos</string-array>
+    <string-array name="Proyect_Punt4">4 Puntos</string-array>
+    <string-array name="Proyect_Punt5">5 Puntos</string-array>
+</resources>

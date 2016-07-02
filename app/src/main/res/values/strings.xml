@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Sonometro</string>
+    <string name="menu_crear">Crear Proyecto</string>
+    <string name="proyect_datos">Ingresar Datos del Proyecto</string>
+    <string name="proyect_nombre">Nombre:</string>
+    <string name="proyect_RegresaMenu">Menu</string>
+    <string name="proyect_encargado">Encargado:</string>
+    <string name="proyect_ttNumPuntos">Número de Puntos</string>
+
+
+    <string-array name="lista_Puntos">
+        <item>1 Punto</item>
+        <item>2 Puntos</item>
+        <item>3 Puntos</item>
+        <item>4 Puntos</item>
+        <item>5 Puntos</item>
+    </string-array>
+    <string name="title_activity_maps">Map</string>
+    <string name="proyect_button_continua">Continuar</string>
+
+
+</resources>
